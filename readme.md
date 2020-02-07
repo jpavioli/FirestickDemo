@@ -1,4 +1,4 @@
-### Before Starting:
+# Before Starting:
 
 1) cd into this directory
 2) run "npm install" in the comand line
