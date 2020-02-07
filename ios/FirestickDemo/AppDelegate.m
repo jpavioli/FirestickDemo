@@ -30,7 +30,7 @@
   self.window.rootViewController = rootViewController;
   [self.window makeKeyAndVisible];
 
-  MParticleOptions *mParticleOptions = [MParticleOptions optionsWithKey:@"us1-4b51275b57bd2c4ba8c0af568f1db1c7" secret:@"MJIDlfbrhODv1nAqVgs3VISzMmDErR6cdTlmP_zyTANXLwTjxhlenHiD9sy5fHAl"];
+  MParticleOptions *mParticleOptions = [MParticleOptions optionsWithKey:@"REPLACE WITH IOS KEY" secret:@"REPLACE WITH IOS SECRET"];
 
   //Please see the Identity page for more information on building this object
   MPIdentityApiRequest *request = [MPIdentityApiRequest requestWithEmptyUser];
