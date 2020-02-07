@@ -47,7 +47,7 @@ public class MainApplication extends Application implements ReactApplication {
     SoLoader.init(this, /* native exopackage */ false);
     initializeFlipper(this); // Remove this line if you don't want Flipper enabled
       MParticleOptions options = MParticleOptions.builder(this)
-              .credentials("us1-9a5904f7de141c468d8c826422878741","WO0If0H_SLSTK7RExY2WE4lpHnrYiSbkKmuFSlwl6f0fDoUzvbJ6DjSZ_WgLT2p1")
+              .credentials("REPLACE WITH ANDROID KEY","REPLACE WITH ANDROID SECRET")
               .build();
 
       MParticle.start(options);
